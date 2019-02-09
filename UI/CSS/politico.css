@@ -1,0 +1,264 @@
+body {
+	font-family:Seguoe UI,Constantia,Cambria;
+	font-size: 15px;
+	line-height:1;	
+	padding:10px;
+	margin: 10px;
+	background-color:#ffffff;
+}
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@media screen(max-width: 700px){
+	body{
+		display:none;
+	}
+}
+/*global*/
+.grid{
+	display: grid;
+	grid-template-columns: repeat(12,2fr);
+	grid-template-rows:100px 550px 50px;
+}
+header, footer{
+	grid-column: span 13;
+}
+main {
+	grid-column:span 7;
+}
+aside {
+	grid-column: span 5;
+}
+.container{
+	width: 84%;
+	margin:auto;
+	overflow: hidden;
+	line-height: 1;
+}
+ ul{
+	margin: 0;
+	padding: 0;
+}
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+/*header*/
+header{
+	background: #ffffff;
+	color: #00cc00;
+	padding-top: 20px;
+	min-height: 70px;
+	border-bottom: #f4f4f4 5px solid;
+}
+/*header img{
+	float:left;
+	width:40px;
+	height: 40px;
+}*/
+header h1{
+	font-weight: bolder;
+	font-size: 50px;
+}
+header a{
+	color: #a9a9a9;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 15px 0 15px;
+}
+header #branding{
+	float: left;
+}
+header #branding h1{
+	padding-bottom: 10px;
+	padding-right: 20px;
+		font-size: 40px;
+		font-family:Engravers MT;
+}
+header nav{
+	float: right;
+	margin-top: 40px;
+}
+header a:hover{
+	color: #000000;
+	font-weight: bold;
+}
+
+/*showcase*/
+	#showcase h1{
+		margin-top: 50px;
+		font-size: 17px;
+		
+	}
+	#showcase p{
+		padding-left: 20px;
+		font-style:Seguoe UI;
+		font-weight: lighter;
+
+	}
+	#showcase img {
+		width: 380px;
+	}
+	/*Sign In*/
+	#signin h3{
+        margin-top: 5px;
+        font-size: 18px;
+        float:left;
+      color: #000000;
+
+    }
+    #signin .highlight, signin .container h3{
+    	color: #00cc00;
+    }
+    #signin h2{
+    	margin-top: 10px;
+    	padding-right: 100px;
+    	color: #00cc00;
+    }
+    #signin form{
+     font-weight: bold;
+    }
+    #signin fieldset{
+    width: 220px;
+    margin-top: 5px;
+	font-family:Century gothic;	
+    }
+    #signin .container{
+    	padding-top: 55px;
+    }
+  
+    #signin p{
+
+    	font-size: 18px;
+    }
+   #signin p2{
+   	padding-bottom: 50px;
+   	margin-top: 2px;
+   }
+/*newsletter*/
+
+footer {
+	text-align: center;
+	background-color: #f4f4f4;
+}
+
+/*Admin*/
+#admin {
+color: #000000;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+#admin :hover{
+	color: #00cc00;
+}
+#admin .container{
+	padding-top: 70px;
+	line-height: 70px;
+	font-family:Century gothic;
+}
+aside a{
+color: #000000;
+font-weight: bold;
+}
+#admin fieldset{
+	width: 300px;
+}
+/*Politician*/
+#politician{
+color: #000000;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+#politician :hover{
+	color: #00cc00;
+}
+#politician .container{
+	padding-right: 60px;
+	padding-top: 60px;
+	line-height: 75px;
+	font-family:Century gothic;
+}
+aside a{
+    color: #000000;
+    font-weight: bold;
+}
+aside h3{
+	color: #000000;
+}
+ #politician fieldset{
+    width: 300px;
+    }
+/*Voter*/
+#voter{
+    color: #000000;
+	font-size: 13px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+#voter :hover{
+	color: #00cc00;
+}
+#voter .container{
+	padding-top: 90px;
+	line-height: 38px;
+	font-family:Century gothic;
+}
+aside a{
+color: #000000;
+}
+#voter fieldset{
+	width: 315px;
+	padding-bottom: 55px;
+	padding-right: 30px;
+}
+
+/*My Profile*/
+#MyProfile{
+    color: #006600;
+	font-size: 14px;
+	text-decoration:none;
+	text-transform:none;
+}
+#MyProfile:hover{
+	color: #00cc00;
+}
+#MyProfile .container{
+	padding-right: 100px;
+	padding-top: 150px;
+	line-height: 40px;
+	font-family:Century gothic;
+}
+aside a{
+color: #000000;
+text-decoration:none;
+}
+/* Sign UP*/
+}
+#signup form{
+	display: inline-block;
+    font-family:Century gothic;   
+ }  
+ #signup fieldset{
+	width: 200px;
+	padding-top: 35px;
+	padding-bottom: 50px;
+	font-family:Century gothic;
+}
+legend{
+	font-size: 17px;
+	font-weight: bold;
+}
+#signup .container{
+	padding-top: 105px;
+	font-weight: bold;
+}
+
+ 
