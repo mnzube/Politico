@@ -26,16 +26,18 @@ header, footer{
 	grid-column: span 13;
 }
 main {
-	grid-column:span 7;
+	grid-column:span 6;
 }
 aside {
 	grid-column: span 5;
 }
 .container{
-	width: 84%;
+	width: 68%;
 	margin:auto;
 	overflow: hidden;
 	line-height: 1;
+	padding-left: 10px;
+
 }
  ul{
 	margin: 0;
@@ -58,6 +60,7 @@ header{
 	height: 40px;
 }*/
 header h1{
+
 	font-weight: bolder;
 	font-size: 50px;
 }
@@ -66,6 +69,7 @@ header a{
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 16px;
+	font: bold;
 }
 header li{
 	float: left;
@@ -97,13 +101,22 @@ header a:hover{
 		
 	}
 	#showcase p{
-		padding-left: 20px;
+		padding-left: 12px;
 		font-style:Seguoe UI;
-		font-weight: lighter;
+		font-weight: light;
 
 	}
+	#showcase p1{
+		text-align: center;
+	}
 	#showcase img {
-		width: 380px;
+		width: 345px;
+		padding-left:18px;
+		padding-bottom: 20px;
+	}
+	#showcase .container{
+		text-align: center;
+
 	}
 	/*Sign In*/
 	#signin h3{
@@ -114,7 +127,7 @@ header a:hover{
 
     }
     #signin .highlight, signin .container h3{
-    	color: #00cc00;
+    	color: #0000CD;
     }
     #signin h2{
     	margin-top: 10px;
@@ -123,24 +136,32 @@ header a:hover{
     }
     #signin form{
      font-weight: bold;
+     padding: auto;
+     font-size: 20px;
+     border-bottom: 20px;
     }
     #signin fieldset{
-    width: 220px;
-    margin-top: 5px;
+    position: center;
+    width: 250px;
+    margin-bottom: 20px;
+    padding-left: 10%;
 	font-family:Century gothic;	
+
     }
     #signin .container{
-    	padding-top: 55px;
+    	padding-top: 150px;
+    	padding-left: 10%;
     }
   
     #signin p{
 
-    	font-size: 18px;
+    	font-size: 10px;
     }
    #signin p2{
    	padding-bottom: 50px;
    	margin-top: 2px;
    }
+
 /*newsletter*/
 
 footer {
@@ -153,13 +174,13 @@ footer {
 color: #000000;
 	text-decoration:none;
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 15px;
 }
 #admin :hover{
 	color: #00cc00;
 }
 #admin .container{
-	padding-top: 70px;
+	padding-top: 60px;
 	line-height: 70px;
 	font-family:Century gothic;
 }
@@ -175,7 +196,7 @@ font-weight: bold;
 color: #000000;
 	text-decoration:none;
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 15px;
 }
 #politician :hover{
 	color: #00cc00;
@@ -183,7 +204,7 @@ color: #000000;
 #politician .container{
 	padding-right: 60px;
 	padding-top: 60px;
-	line-height: 75px;
+	line-height: 70px;
 	font-family:Century gothic;
 }
 aside a{
@@ -208,8 +229,9 @@ aside h3{
 }
 #voter .container{
 	padding-top: 90px;
-	line-height: 38px;
+	line-height: 45px;
 	font-family:Century gothic;
+	padding-right: 50px;
 }
 aside a{
 color: #000000;
@@ -217,7 +239,7 @@ color: #000000;
 #voter fieldset{
 	width: 315px;
 	padding-bottom: 55px;
-	padding-right: 30px;
+	padding-right: 50px;
 }
 
 /*My Profile*/
@@ -247,18 +269,28 @@ text-decoration:none;
     font-family:Century gothic;   
  }  
  #signup fieldset{
-	width: 200px;
+	width: 225px;
 	padding-top: 35px;
-	padding-bottom: 50px;
+	padding-bottom: 30px;
 	font-family:Century gothic;
+	position: center;
+
 }
 legend{
 	font-size: 17px;
 	font-weight: bold;
+	color: #0000CD;
 }
 #signup .container{
-	padding-top: 105px;
+	padding-top: 90px;
 	font-weight: bold;
-}
 
+}
+#signup fieldset .highlight{
+	color:#0000CD;
+}
  
+ol {
+	text-align: left;
+
+}
