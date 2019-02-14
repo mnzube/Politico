@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../CSS/politico.css"> 
+    <script src="../JS/politico.js"></script>
+    <title>Politico Home</title>
+    <link rel="icon" type="image/ico" href="../IMAGES/newleaf.jpg" />
+      
+</head>
+<body>
+    <div class="grid">
+    <header>
+        <div class="container">
+        <div id="branding">
+        <h1>Admin</h1>
+        </div>
+         <nav>
+          <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="Admin.html">Admin</a></li>
+             <li><a href="Politician.html">Politician</a></li>
+             <li><a href="Voter.html">Voter</a></li>
+          </ul>
+        </nav>
+        </div>
+    </header> 
+     <main id="show">
+        <div class= "container">
+            <h3>Party Dashboard</h3><br><br>
+            <fieldset>
+            <h2><u>Parties</u></h2>
+            <h3>
+            <div>1.Alliance Party
+            <button onclick = "deleteParty()" style='float:right'>Delete</button>
+            <button onclick = "updateParty()" style='float:right'>Edit</button>
+            </div><br>
+            <div>2.Bloggers Party
+            <button onclick = "deleteParty()" style='float:right'>Delete</button>
+            <button onclick = "updateParty()" style='float:right'>Edit</button>
+            </div><br>
+            <div>3.Conservative Party
+            <button onclick = "deleteParty()" style='float:right'>Delete</button>
+            <button onclick = "updateParty()" style='float:right'>Edit</button></div><br> 
+            <div>4.Democratic Party
+            <button onclick = "deleteParty()" style='float:right'>Delete</button>
+            <button onclick = "updateParty()" style='float:right'>Edit</button>
+           </div><br><br>
+           <div><button onclick = "addNewParty()" style='float:right'>Add New Party</button>
+          </h3>
+          </fieldset>
+        </div>
+    </main>
+
+    <aside id="create">
+        <div class="container">
+         <h3>Office Dashboard</h3><br>
+         <fieldset>
+         <h2><u>Offices</u><h2>
+         <h3>
+           <div>1.Presidency<input type="submit" value="Delete" style='float:right'><input type="submit" value="Edit"style='float:right'></div><br>
+           <div>2.Governorship<input type="submit" value="Delete" style='float:right'><input type="submit" value="Edit"style='float:right'></div><br>
+           <div>3.Senatorial<input type="submit" value="Delete" style='float:right'><input type="submit" value="Edit"style='float:right'></div><br> 
+           <div>4.MP<input type="submit" value="Delete" style='float:right'><input type="submit" value="Edit"style='float:right'></div><br><br>
+           <div><input type="submit" value="Add New Office" style='float:right'></div>
+         </h3>
+          </fieldset>
+</div>
+</aside>
+       <!--<div class='admindash' id='updateParty'>
+          <span onclick = "closeModal()">X</span>
+           <form>
+           Name<br><input type="string" width='100%' placeholder="Enter Name" required><br><br>
+           HqAddress<br><input type="string" width='100%' min="5" placeholder="Enter HqAddress" required><br><br>
+           LogoUrl<br><input type="string" width='100%' min="5" placeholder="Enter LogoUrl" required><br><br>
+
+           <input type="submit" value="Update">
+       
+          </form> 
+
+        </div>
+<div class='admindash'  id='delete'>
+
+<form>
+<p>Are you sure?</p><br><br>
+<input type="submit" value="YES"><input type="submit" value="NO">
+</form>
+
+</div>
+<div class='admindash-content'>
+  </div></-->
+ 
+<footer>
+    <p>Politico, Copyright &copy; 2019</p>
+</footer>
+</div>
+</body>
+</html>
