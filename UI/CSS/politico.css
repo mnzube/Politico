@@ -3,7 +3,7 @@ body {
 	font-size: 15px;
 	line-height:1;	
 	padding:10px;
-	margin: 10px;
+	margin: auto;
 	background-color:#ffffff;
 }
 @viewport {
@@ -29,23 +29,22 @@ main {
 	grid-column:span 6;
 }
 aside {
-	grid-column: span 5;
+	grid-column: span 6;
 }
 .container{
-	width: 68%;
+	width: 78%;
 	margin:auto;
 	overflow: hidden;
 	line-height: 1;
-	padding-left: 10px;
-
+	padding-right: 50px;
 }
  ul{
 	margin: 0;
 	padding: 0;
 }
-input[type='number'] {
+/*input[type='number'] {
     -moz-appearance:textfield;
-}
+}*/
 /*header*/
 header{
 	background: #ffffff;
@@ -60,16 +59,15 @@ header{
 	height: 40px;
 }*/
 header h1{
-
 	font-weight: bolder;
 	font-size: 50px;
+	text-align: auto;
 }
 header a{
 	color: #a9a9a9;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 16px;
-	font: bold;
 }
 header li{
 	float: left;
@@ -78,14 +76,16 @@ header li{
 }
 header #branding{
 	float: left;
+	padding-left:55px;
 }
 header #branding h1{
 	padding-bottom: 10px;
-	padding-right: 20px;
+	padding-right: 50px;
 		font-size: 40px;
 		font-family:Engravers MT;
 }
 header nav{
+	padding-left: 10px;
 	float: right;
 	margin-top: 40px;
 }
@@ -96,26 +96,29 @@ header a:hover{
 
 /*showcase*/
 	#showcase h1{
-		margin-top: 50px;
+		text-align: center;
+		margin-top: 20px;
 		font-size: 17px;
-		
-	}
-	#showcase p{
-		padding-left: 12px;
-		font-style:Seguoe UI;
-		font-weight: light;
+		color: #0000cd;
 
 	}
-	#showcase p1{
-		text-align: center;
+	#showcase p{
+		text-align:center;
+		font-style:Seguoe UI;
+		font-weight: lighter;
+		
+		
+
+        
 	}
 	#showcase img {
-		width: 345px;
-		padding-left:18px;
-		padding-bottom: 20px;
+		padding-top: 10px;
+		width: 360px;
+		padding-left: 75px;
 	}
 	#showcase .container{
-		text-align: center;
+		text-align: left;
+
 
 	}
 	/*Sign In*/
@@ -129,39 +132,37 @@ header a:hover{
     #signin .highlight, signin .container h3{
     	color: #0000CD;
     }
-    #signin h2{
-    	margin-top: 10px;
-    	padding-right: 100px;
-    	color: #00cc00;
-    }
+ 
     #signin form{
      font-weight: bold;
-     padding: auto;
-     font-size: 20px;
-     border-bottom: 20px;
+     font-size: 18px;
+     line-height: 21px;
+    
+   
     }
     #signin fieldset{
-    position: center;
-    width: 250px;
-    margin-bottom: 20px;
-    padding-left: 10%;
+    width: 245px;
 	font-family:Century gothic;	
+	padding-left: 50px;
+	padding-right: 50px;
 
+	
     }
     #signin .container{
-    	padding-top: 150px;
-    	padding-left: 10%;
+    	padding-top: 120px;
+    	padding-left: 100px;
+    	
+
     }
   
     #signin p{
 
-    	font-size: 10px;
+    	font-size: 20px;
     }
    #signin p2{
    	padding-bottom: 50px;
    	margin-top: 2px;
    }
-
 /*newsletter*/
 
 footer {
@@ -174,14 +175,14 @@ footer {
 color: #000000;
 	text-decoration:none;
 	text-transform: uppercase;
-	font-size: 15px;
+	font-size: 16px;
 }
 #admin :hover{
 	color: #00cc00;
 }
 #admin .container{
-	padding-top: 60px;
-	line-height: 70px;
+	padding-top: 90px;
+	line-height: 69px;
 	font-family:Century gothic;
 }
 aside a{
@@ -189,23 +190,24 @@ color: #000000;
 font-weight: bold;
 }
 #admin fieldset{
-	width: 300px;
+	width: 61%;
 }
 /*Politician*/
 #politician{
 color: #000000;
 	text-decoration:none;
 	text-transform: uppercase;
-	font-size: 15px;
+	font-size: 16px;
 }
 #politician :hover{
 	color: #00cc00;
 }
 #politician .container{
-	padding-right: 60px;
-	padding-top: 60px;
+	padding-right: 50px;
+	padding-top: 85px;
 	line-height: 70px;
 	font-family:Century gothic;
+	text-align: left;
 }
 aside a{
     color: #000000;
@@ -215,7 +217,8 @@ aside h3{
 	color: #000000;
 }
  #politician fieldset{
-    width: 300px;
+    width: 60%;
+    padding-left: 50px;
     }
 /*Voter*/
 #voter{
@@ -228,18 +231,17 @@ aside h3{
 	color: #00cc00;
 }
 #voter .container{
-	padding-top: 90px;
-	line-height: 45px;
+	padding-top: 95px;
+	line-height: 50px;
 	font-family:Century gothic;
-	padding-right: 50px;
 }
 aside a{
 color: #000000;
 }
 #voter fieldset{
-	width: 315px;
+	width: 320px;
 	padding-bottom: 55px;
-	padding-right: 50px;
+	padding-right: 30px;
 }
 
 /*My Profile*/
@@ -266,31 +268,122 @@ text-decoration:none;
 }
 #signup form{
 	display: inline-block;
-    font-family:Century gothic;   
- }  
+    font-family:Century gothic;  
+    float: center; 
+ }
+
  #signup fieldset{
-	width: 225px;
-	padding-top: 35px;
-	padding-bottom: 30px;
+	width:300px;
+	clear:left;
+	float: left;
+	padding-top: 50px;
+	display:inline-block;
 	font-family:Century gothic;
-	position: center;
+	text-align:left;
+	padding-left: 30px;
+}
+#signup input{
+  display: inline-block;
+text-align: center;
 
 }
+select, input[type="text"]{
+      width:100%;
+      box-sizing:border-box;
+    }
+
 legend{
-	font-size: 17px;
+	font-size: 20px;
 	font-weight: bold;
-	color: #0000CD;
+    color:#0000CD;
 }
 #signup .container{
-	padding-top: 90px;
+	padding-top: 115px;
+	padding-left: 50px;
 	font-weight: bold;
-
+	line-height: 20px;
+	 width: 100%;
+     clear: both;
 }
-#signup fieldset .highlight{
+#signup .highlight{
 	color:#0000CD;
 }
- 
-ol {
-	text-align: left;
+/*My Profile*/
+
+#profile .container{
+	text-align:center;
+	padding-top: 100px;
+}
+.container h2{
+	color: #0000cd;
 
 }
+.container h3{
+	text-align: left;
+	padding-top: 4px;
+	font-size: 20px;
+	color: #0000cd;
+}
+.create fieldset{
+
+	padding: auto;
+}
+#smallerseats img{
+		padding-top: 27px;
+		width: 100px;		
+}
+#bigseats .PC{
+	line-height: 0.5px;
+}
+#bigseats .GC{
+   line-height: 0.5px;	
+}
+#smallerseats .SP{
+line-height: 0.1px;
+}
+#smallerseats .MPS{
+	line-height: 0.5px;
+}
+
+	/*
+    .modal {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        visibility: hidden;
+        transform: scale(1.1);
+        transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+    }
+    .modal-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 1rem 1.5rem;
+        width: 24rem;
+        border-radius: 0.5rem;
+    }
+    .close-button {
+        float: right;
+        width: 1.5rem;
+        line-height: 1.5rem;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 0.25rem;
+        background-color: lightgray;
+    }
+    .close-button:hover {
+        background-color: darkgray;
+    }
+    .show-modal {
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1.0);
+        transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+    }
+	
